@@ -5,6 +5,8 @@ hidl_interface {
     root: "vendor.xiaomi",
     srcs: [
         "IDisplayFeature.hal",
+        "IDisplayFeatureCallback.hal",
+        "types.hal",
     ],
     interfaces: [
         "android.hidl.base@1.0",
